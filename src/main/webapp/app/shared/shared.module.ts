@@ -12,4 +12,10 @@ import { BlogSharedLibsModule, BlogSharedCommonModule, JhiLoginModalComponent, H
     exports: [BlogSharedCommonModule, JhiLoginModalComponent, HasAnyAuthorityDirective],
     schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
-export class BlogSharedModule {}
+export class BlogSharedModule {
+    static forRoot() {
+        return {
+            ngModule: BlogSharedModule
+        };
+    }
+}
