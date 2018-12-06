@@ -1,16 +1,16 @@
-# blog
-This application was generated using JHipster 5.0.1, you can find documentation and help at [https://www.jhipster.tech/documentation-archive/v5.0.1](https://www.jhipster.tech/documentation-archive/v5.0.1).
-
 ## Development
 
 Before you can build this project, you must install and configure the following dependencies on your machine:
 
-1. [Node.js][]: We use Node to run a development web server and build the project.
-   Depending on your system, you can install Node either from source or as a pre-packaged bundle.
-2. [Yarn][]: We use Yarn to manage Node dependencies.
-   Depending on your system, you can install Yarn either from source or as a pre-packaged bundle.
+1. [Java8][] Install Java 8 from Oracle (http://www.oracle.com/technetwork/java/javase/downloads/index.html)
+2. [Git][] Install Git from Git-scm (https://git-scm.com).
+3. [Node.js][] Install Node.js from Nodejs.org (http://nodejs.org). 
+4. [Yarn][] Install Yarn (https://yarnpkg.com/en/docs/install).
+5. [Intellij IDEA IDE][] Install IntelliJ IDEA IDE Community Edition (https://www.jetbrains.com/idea/download)
+6. [Maven][] Install maven (https://www-us.apache.org/dist/maven/maven-3/3.6.0/binaries/apache-maven-3.6.0-bin.zip)
+7. [Docker toolbox][] Install Docker toolbox (MAC: https://docs.docker.com/toolbox/toolbox_install_mac/) or (Windows:https://docs.docker.com/toolbox/toolbox_install_windows/)
+8. [Sonarqube][] Download sonarqube (https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-7.4.zip)
 
-After installing Node, you should be able to run the following command to install development tools.
 You will only need to run this command when dependencies change in [package.json](package.json).
 
     yarn install
